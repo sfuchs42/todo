@@ -1,6 +1,6 @@
 # README
 
-This is a simple single page app with a todo list that can be toggled when a task is finished.
+This is a single page app with a todo list that can be toggled when a task is finished.
 
 New tasks can be added and toggled on/off.
 
