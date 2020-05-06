@@ -33,7 +33,7 @@ $(function(){
 			$('.toggle').change(toggleTask);
 		});
 	}
-
+	// Takes tasks, converts to html, and toggles its state	
 	$.get('/tasks').success( function( data ){
 		var htmlString = "";
 		
@@ -47,7 +47,8 @@ $(function(){
 		$('.toggle').change(toggleTask);
 
 	});
-
+	
+	// Adds new tasks to the list 	
 	$('#new-form').submit(function(event){
 		event.preventDefault();
 		var textbox = $('.new-todo');
